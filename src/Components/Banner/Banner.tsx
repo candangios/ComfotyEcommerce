@@ -9,25 +9,25 @@ const Banner = () => {
       id: 1,
       title: 'Best furniture collection for your interdio',
       subTitle: ' welcome to chairs',
-      image: './src/Assets/banner_image.png'
+      image: '/Assets/banner_image.png'
     },
     {
       id: 2,
       title: 'Best furniture collection for your interdio',
       subTitle: ' welcome to chairs',
-      image: './src/Assets/banner_image.png'
+      image: '/Assets/banner_image.png'
     },
     {
       id: 3,
       title: 'Best furniture collection for your interdio',
       subTitle: ' welcome to chairs',
-      image: './src/Assets/banner_image.png'
+      image: '/Assets/banner_image.png'
     },
     {
       id: 4,
       title: 'Best furniture collection for your interdio',
       subTitle: ' welcome to chairs',
-      image: './src/Assets/banner_image.png'
+      image: '/Assets/banner_image.png'
     }
   ]
   const settings = {

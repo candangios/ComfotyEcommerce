@@ -7,22 +7,22 @@ const Categories: FC = () => {
     {
       title: 'Wing Chair',
       products: '3,584 products',
-      image: './src/Assets/Categories/categories_1.png'
+      image: '/Assets/Categories/categories_1.png'
     },
     {
       title: 'Wing Chair',
       products: '157 products',
-      image: './src/Assets/Categories/categories_2.png'
+      image: '/Assets/Categories/categories_2.png'
     },
     {
       title: 'Wing Chair',
       products: '154 products',
-      image: './src/Assets/Categories/categories_3.png'
+      image: '/Assets/Categories/categories_3.png'
     },
     {
       title: 'Park Bench',
       products: '154 products',
-      image: './src/Assets/Categories/categories_4.png'
+      image: '/Assets/Categories/categories_4.png'
     }
   ]
   const settings = {
