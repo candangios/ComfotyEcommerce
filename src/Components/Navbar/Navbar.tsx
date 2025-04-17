@@ -18,8 +18,8 @@ const Navbar = () => {
               <option>bangla</option>
             </select>
 
-            <button><Link className="text-sm text-white font-inter font-normal capitalize">Faqs</Link></button>
-            <button><Link className="flex items-center text-sm text-white font-inter font-normal capitalize"><Info /> need help</Link></button>
+            <button><Link className="text-sm text-white font-inter font-normal capitalize" to={""}>Faqs</Link></button>
+            <button><Link className="flex items-center text-sm text-white font-inter font-normal capitalize" to={""}><Info /> need help</Link></button>
           </div>
 
         </div>
@@ -83,10 +83,10 @@ const Navbar = () => {
 
             <nav className="flex items-center gap-8">
               <NavLink to='/' className='text-sm text-[#029fae] font-inter font-medium capitalize'>Home</NavLink>
-              <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize'>shop</NavLink>
-              <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize'>product</NavLink>
-              <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize'>pages</NavLink>
-              <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize'>about</NavLink>
+              <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize' to={""}>shop</NavLink>
+              <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize' to={""}>product</NavLink>
+              <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize' to={""}>pages</NavLink>
+              <NavLink className='text-sm text-[#636270] font-inter font-medium capitalize' to={""}>about</NavLink>
             </nav>
           </div>
 
